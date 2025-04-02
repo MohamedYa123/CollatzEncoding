@@ -15,6 +15,8 @@ while stoplen>0 and num2>4:
 		stp+=1
 	if stp!=0:
 		pattern.append(stp)
+	if num2<=4:
+		break
 	stp=0
 	while num2&1!=0 and stoplen>0:
 		#even
